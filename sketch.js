@@ -54,7 +54,7 @@ pop();
   fill("orange"); //and this is the circle
                   
 push();
-translate (0, 550);
+translate (0, 530);
 let d = map(mouseX, 0, windowWidth, 50, 150, true);
 let xPos = map2(x, 0, width, 0, width, SINUSOIDAL, BOTH);
 ellipse(xPos, 0, d);
